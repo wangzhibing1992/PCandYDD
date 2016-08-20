@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+html, body {
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    line-height: 20px;
+    color: #333;
+}
+
+.clearFix:before, .clearFix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.header {
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 200;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+}
+
+.header .nav {
+    background-color: #303a40;
+    position: relative;
+    z-index: 100;
+}
+
+.nav .warp {
+    width: 980px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.nav .warp .logo {
+    float: left;
+    padding: 5px 20px 5px 0;
+    position: relative;
+}
+
+.nav .warp .logo a {
+    padding-right: 30px;
+}
+
+.nav .warp .logo a img {
+    vertical-align: middle;
+    width: 110px;
+    height: 40px;
+}
+
+.nav .warp .logo em {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    background-color: #838b8f;
+    padding: 0 4px 2px;
+    right: 26px;
+    top: 5px;
+    width: 22px;
+    height: 22px;
+    font-style: normal;
+    -webkit-border-radius: 3px 3px 3px 0;
+    -moz-border-radius: 3px 3px 3px 0;
+    border-radius: 3px 3px 3px 0;
+}
+
+.nav .warp .logo em i {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    display: block;
+    line-height: 16px;
+    vertical-align: middle;
+    font-style: italic;
+    margin: 0;
+    background: url("../iconsImg/icons16_b91c7117.png") 0 -240px;
+}
+
+.nav .warp .menu {
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 675px;
+    font-family: 宋体;
+    font-size: 12px;
+}
+
+.nav .warp .menu .menuUn {
+    text-align: right;
+    line-height: 50px;
+}
+
+.nav .warp .menu .menuUn a {
+    margin: 0 5px;
+    color: #999;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+.nav .warp .menu .menuUn a:hover {
+    color: #fff;
+}
+
+.nav .warp .menu .menuUn i {
+    display: inline-block;
+    margin: 0 3px;
+    height: 16px;
+    border-left: 1px dotted #7b7c7d;
+    vertical-align: middle;
+}
+
+.nav .warp .menu .menuUn span {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    color: #999;
+}
+
+.nav .warp .menu .menuUn span i {
+    width: 16px;
+    height: 16px;
+    border: none;
+    line-height: 16px;
+    margin-top: -1px;
+    background: url("../iconsImg/icons16_b91c7117.png") 0 -528px;
+}
+
+.nav .warp .menu .menuUn span:hover {
+    color: #fff;
+}
+
+.nav .warp .menu .menuUn span:hover i {
+    background-position: 0 -544px;
+}
+
+.container {
+    height: 789px;
+    margin-top: -20px;
+    background: url("../centerImg/bg_search11_d603efbf.jpg") no-repeat center top #2f6f75;
+}
+
+.container .warp {
+    height: 669px;
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.container .warp .side {
+    float: left;
+    position: relative;
+    height: 470px;
+    width: 598px;
+    margin-top: 67px;
+    font-family: "Microsoft YaHei";
+}
+
+.container .warp .side .box {
+    margin-bottom: 26px;
+    width: 598px;
+}
+
+.container .warp .side .box .main {
+    height: 32px;
+    padding: 7px 138px 5px 0;
+    overflow: hidden;
+    border: 2px solid #ff9500;
+    background-color: #fff;
+}
+
+.container .warp .side .box .main input[type=text] {
+    width: 100%;
+    height: 28px;
+    outline: 0 none;
+    border: 0 none;
+    font-size: 16px;
+    color: #666;
+    text-indent: 20px;
+    font-family: "Microsoft YaHei";
+}
+
+.container .warp .side .box .main input[type=button] {
+    width: 138px;
+    height: 48px;
+    color: #fff;
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    background: #ff9500;
+    border: 2px solid #ff9500;
+    cursor: pointer;
+}
+
+.container .warp .side .content {
+    width: 597px;
+    height: 393px;
+}
+
+.container .warp .side .content .left {
+    float: left;
+    width: 112px;
+}
+
+.container .warp .side .content .left ul {
+    background: rgba(198, 198, 198, .3);
+    list-style: none;
+}
+
+.container .warp .side .content .left ul li {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    height: 65px;
+    line-height: 66px;
+    cursor: pointer;
+    padding-top: 1px;
+}
+
+.container .warp .side .content .left ul li:hover {
+    background-color: rgba(132, 132, 132, .2);
+}
+
+.container .warp .side .content .right {
+    position: relative;
+    width: 474px;
+    height: 395px;
+    float: right;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.container .warp .side .content .right img {
+    float: left;
+    margin: 0 4px 5px 0;
+    display: inline-block;
+    opacity: .7;
+    width: 154px;
+    height: 75px;
+    cursor: pointer;
+
+}
+
+.container .warp .side .content .right img:hover {
+    opacity: 1;
+}
+
+.container .warp .side .content .right1 {
+    display: none;
+    position: absolute;
+    bottom: 1px;
+    left: 123px;
+    transition: 2s;
+}
+
+.container .warp .login {
+    background: #fff;
+    float: right;
+    width: 370px;
+    position: relative;
+    height: 445px;
+    margin-top: 67px;
+    font-family: "Microsoft YaHei";
+}
+
+.container .warp .login h3 {
+    color: #ff9500;
+    text-align: left;
+    font-weight: 400;
+    font-size: 26px;
+    height: 57px;
+    line-height: 57px;
+    padding: 0 30px;
+    margin: 10px 0;
+    font-family: inherit;
+    text-rendering: optimizelegibility;
+}
+
+.container .warp .login form {
+    padding: 0 30px;
+    position: relative;
+}
+
+.container .warp .login form input {
+    margin-bottom: 20px;
+}
+
+.container .warp .login form input[type=text].tel {
+    width: 294px;
+    height: 18px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 14px 7px;
+    font-size: 16px;
+    outline: none;
+    font-family: "Microsoft YaHei";
+}
+
+.container .warp .login form input[type=password] {
+    width: 294px;
+    height: 18px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 14px 7px;
+    font-size: 16px;
+    outline: none;
+    font-family: "Microsoft YaHei";
+}
+
+.container .warp .login form input[type=text].yan {
+    width: 114px;
+    height: 18px;
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 14px 7px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    display: inline-block;
+    outline: none;
+}
+
+.container .warp .login form a {
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    margin-left: 7px;
+    width: 143px;
+    color: #3d9ccc;
+    background: #e9f1f5;
+    border: 1px #e4ecf0 solid;
+    display: inline-block;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container .warp .login form a:hover {
+    background: #3ca2f2;
+    color: #fff;
+}
+
+.container .warp .login form input[type=button] {
+    background: #ff9500;
+    color: #FFF;
+    font-size: 24px;
+    height: 58px;
+    line-height: 58px;
+    width: 310px;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.container .warp .login form .rules {
+    margin-bottom: 20px;
+    height: 46px;
+    color: #666;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.container .warp .login form .rules span {
+    color: #666;
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    line-height: 20px;
+    vertical-align: 3px;
+}
+
+.container .warp .login form .rules em {
+    font-style: normal;
+    cursor: pointer;
+}
+
+.container .warp .login form .rules em:hover {
+    text-decoration: underline;
+}
+
+.container .warp .login form p {
+    background: #f8f8f8;
+    height: 56px;
+    line-height: 56px;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 370px;
+    font-size: 18px;
+    color: #333333;
+    text-align: center;
+}
+
+.container .warp .login form p em {
+    color: #0088bb;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.under {
+    clear: both;
+    background: #f6f6f6;
+    margin-top: -80px;
+    padding: 20px 0;
+    color: #999;
+    text-align: center;
+}
+
+.under p {
+    font-size: 12px;
+    line-height: 20px;
+}
